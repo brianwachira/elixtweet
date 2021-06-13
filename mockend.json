@@ -1,21 +1,18 @@
 {
- "countries": 
-   {
+ "countries": {
      "id": "int",
      "countryCode": "int",
      "countryName": "string"
    },
-  "institutions":
-   {
+  "institutions": {
      "id": "int",
      "name": "string",
      "country": "countries[]"
    },
-   "educationLevels": 
-     {
-       "id": "int",
-       "name": "string",
-       "positionLevel": "int",
-       "country": "countries[]"
+   "educationLevels": {
+      "id": "int",
+      "name": "string",
+      "positionLevel": "int",
+      "country": "countries[]"
      }
 }
